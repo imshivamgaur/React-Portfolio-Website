@@ -1,5 +1,5 @@
 import ScrollIndicator from "../../ui/ScrollIndicator";
-import image from "/images/image.png";
+import image from "/images/image.jpg";
 import { motion } from "framer-motion";
 
 const Hero = () => {
