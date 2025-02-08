@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+*{
+  font-family: "Poppins";
+}
+
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px;  /* Width of the scrollbar */
+  height:10px; /* Height of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #8e44ad, #3498db); /* Gradient for the thumb */
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #9b59b6, #2980b9); /* Darker gradient on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: #2c3e50;  /* Dark background for the track */
+  border-radius: 10px;
+}
+
+/* Optional: For vertical scrollbar */
+::-webkit-scrollbar-corner {
+  background: #34495e; /* Background color for the corner of the scrollbar */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+.scroll-target {
+  scroll-margin-top: 130px; /* Adjust based on your navbar height */
+}

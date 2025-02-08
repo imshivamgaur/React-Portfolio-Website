@@ -1,0 +1,32 @@
+[
+  {
+    "name": "WorldSphere",
+    "image": "worldsphere.png",
+    "description": "An interactive platform that provides comprehensive details about all countries, including population, geography, currencies, languages, and flags. It fetches real-time data from a country API and presents it in an organized and visually appealing way.",
+    "technologies": ["JavaScript", "React", "Tailwind CSS", "REST API", "Axios"]
+  },
+  {
+    "name": "Shivam Docs",
+    "image": "shivamdocs.png",
+    "description": "A simple yet powerful document management application that allows users to create, edit, and organize their notes or tasks efficiently. It supports real-time data persistence using LocalStorage and ensures smooth state management with Context API.",
+    "technologies": ["JavaScript", "React", "Tailwind CSS", "LocalStorage", "Context API"]
+  },
+  {
+    "name": "Weather App",
+    "image": "weather.png",
+    "description": "A dynamic weather application that enables users to check current weather conditions based on city or location input. It fetches real-time weather data, including temperature, humidity, and wind speed, using a REST API and displays the information in an intuitive UI.",
+    "technologies": ["JavaScript", "React", "REST API", "Axios"]
+  },
+  {
+    "name": "MERN Authentication System",
+    "image": "mernauth.png",
+    "description": "A secure user authentication system built using the MERN stack. It features registration, login, and authentication with email and phone verification. Passwords are securely hashed with bcrypt, and authentication is managed using JWT tokens for enhanced security.",
+    "technologies": ["JavaScript", "MongoDB", "Express", "React", "Node.js", "JWT", "bcrypt", "Mongoose"]
+  },
+  {
+    "name": "MERN Blog App",
+    "image": "blog.png",
+    "description": "A full-stack blog application that allows users to create, edit, and delete blog posts. It includes user authentication and role-based access control, ensuring secure content management. The app provides a smooth UI with a responsive design, making it accessible on all devices.",
+    "technologies": ["JavaScript", "MongoDB", "Express", "React", "Node.js", "JWT", "Mongoose"]
+  }
+]
